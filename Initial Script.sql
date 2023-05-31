@@ -1,8 +1,9 @@
-Create database TaskManagement;
+-- create database
+Create DATABASE TaskManagement;
 
-use TaskManagement
+USE TaskManagement;
 GO
--- create
+-- create table
 CREATE TABLE Task (
   	[Id] [int] IDENTITY(1,1) NOT NULL,
 	[Name] [nvarchar](50) NOT NULL,
